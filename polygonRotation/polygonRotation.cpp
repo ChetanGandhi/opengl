@@ -518,9 +518,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
                     }
                 }
 
-                if(keys[VK_F9])
+                if(keys['T'])
                 {
-                    keys[VK_F9] = FALSE;
+                    keys['T'] = FALSE;
                     rotationDirection *= -1.0f;
                 }
             }
